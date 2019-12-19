@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<html>
+    
+   
+<head>
+     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="./style.index.css" rel="stylesheet"/>
+</head>
+<body>
+  <div class="header" id="myHeader">
+    <h1>Customer Request Form</h1>
+  </div>
+  <div class="content"></div> 
+  <fieldset>
+    
+    <div>
+      <p style="text-align:center">How many aircond units you wish to service?</p>
+
+      <input type="radio" name="answer" onclick="myFunction(this.value)" value="100"> 1<br>
+      <input type="radio" name="answer" onclick="myFunction(this.value)" value="180"> 2<br>
+      <input type="radio" name="answer" onclick="myFunction(this.value)" value="260"> 3<br>  
+      <input type="radio" name="answer" onclick="myFunction(this.value)" value="500" > Other<br>
+
+      The price of the aircond is: <input type="text" id="result">
+    </div>
+  </fieldset>
+  <div class="nextPreviousButtons">
+    <a href="#" class="previous">&laquo; Previous</a>
+    <a href="id2.html" class="next">Next &raquo;</a>
+  </div>
+  <script src="main.index.js"></script>
+</body>
+</html>
+
+
+
+
+
